@@ -1,0 +1,303 @@
+<!--doctype-->
+<!DOCTYPE html>
+
+<html lang="en">
+<head>
+    <meta charset = "UTF-8">
+    <meta http-equiv = "X-UA-Compatible" content="IE=edge">
+    <meta name = "viewport" content = "width=device-width, initial-scale=1.0">
+    <title> Mi primer documento HTML </title>
+</head>
+
+<!-- Etiqueta del cuerpo-->
+
+<body>
+    <p> Hola mundo </p>
+
+    <!-- Contenido -->
+
+    <p> style: Permite insertar código CSS </p>
+    <p> link: Permite enlazar recursos al documento HTML </p>
+
+    <!-- GLOSARIO DE ETIQUETAS: -->
+
+    <h1> Etiquetas estructurales </h1>
+
+    <!-- Crean la estructura para el resto de la página:
+        doctype: identifica el estándar
+        Todo documento debe ir entre las marcas <html> y </html>
+        Todo html tiene dos partes: head y body 
+            Dentro del head se incluye otros elementos estructurales como <title> que indica el título de dicha página 
+            Dentro del body se incluye el contenido real de la página 
+            Cualquier etiqueta puede ir comentada. Los comentarios no se muestran, son solo de interés para el programador en un futuro. -->
+
+    <p> nav: Se utilizará para crear barras de navegación</p>
+    <nav></nav>
+
+    <p> section: Esta etiqueta permite marcar contenido de una página relacionado con un tema concreto.</p>
+    <section></section>
+
+    <p> article: Es una unidad de contenido sobre un tema específico el cual puede ser independiente de otros «artículos» </p>
+    <article></article>
+
+    <p> aside: Se usa para definir contenido con «una relación vaga con el resto de la página».</p>
+    <aside></aside>
+
+    <!-- Títulos -->
+
+    <p> h1, h2, h3, h4, h5, h6: Establecen encabezados</p>
+    <h1> Hola mundo </h1>
+    <h2> Hola mundo </h2>
+    <h3> Hola mundo </h3>
+    <h4> Hola mundo </h4>
+    <h5> Hola mundo </h5>
+    <h6> Hola mundo </h6>
+
+    <p> header: Se utiliza para indicar cual es la cabecera de un artículo o sección.</p>
+    <header></header>
+
+    <p> footer: Permite definir un «pie de página», normalmente con indicación de derechos de autor, fecha o datos similares. </p>
+    <footer></footer>
+
+    <!-- Etiquetas de agrupacón-->
+
+    <h1> Etiquetas de Agrúpación </h1>
+    <p> h3: Permite romper el contenido en dos secciones </p>
+    <hr>
+
+    <p> pre: Permiten obligar al navegador a que respete los espacios en blanco tal y como aparecen en la página original </p>
+    <pre>Hola mundo</pre>
+
+    <p> blockquote: Se usa para indicar citas largas</p>
+    <blockquote>Esto es una cita</blockquote>
+
+    <p> figure: Define figuras ilustradas como parte del documento HTML</p>
+    <figure>Hola figure</figure>
+
+    <p> figcaption: Definie la leyenda de una figura ilustrada </p>
+    <figcaption></figcaption>
+
+    <!-- 
+        Es una secuencia de elementos relacionados en torno a un mismo concepto 
+        Para abrir una lista de elementos se utilizan dos posibles marcas:
+    -->
+    <p> ol: Para crear una lista ordenada (numerada) </p>
+
+    <ol>
+        <li> Uno </li>
+        <li> Dos </li>
+        <li> Tres </li>
+    </ol>
+
+    <ol type="A">
+        <li> Uno </li>
+        <li> Dos </li>
+        <li> Tres </li>
+    </ol>
+    <ol type="i">
+        <li> Uno </li>
+        <li> Dos </li>
+        <li> Tres </li>
+    </ol>
+
+
+    <p> ul: Para crear una lista desordenada (no numerada) </p>
+
+    <ul>
+        <li> Informatica </li>
+        <li> Medicina </li>
+        <li> Ingeniería </li>
+    </ul>
+
+    <p> li: Etiqueta que nos permite agrupar el contenido de un elemento </p>
+
+    <!-- Etiqueta padre -->
+
+    <ul style = "list-style-type:square">
+        <li> Info </li>
+        <li> Medicina </li>
+        <li> Ingeniería </li>
+    </ul>
+
+    <!-- En un plano distinto se pueden encontrar las listas de definiciones. 
+         Con estos elementos se puede especificar una secuencia de términos para los cuales proporcionamos una definición -->
+
+    <p> dl: Crea una lista de definiciones </p>
+    <p> dt: Va dentro de la etiqueta "dl" y especifica el término que vamos a definir </p>
+    <p> dd: Va dentro de la etiqueta "dl" e indican la definición asociada al término anterior </p>
+
+    <dl>
+        <dt> Grupo A: </dt>
+        <dd> Alonso </dd>
+        <dd> Sofía </dd>
+
+        <dt> Grupo B: </dt>
+        <dd> Lorena </dd>
+        <dd> Sebastián </dd>
+    </dl>
+
+    <p> div: Permite crear «divisiones» o «contenedores genericos» en el documento</p>
+    
+    <div>
+        <p> Hola desde un div </p>
+        <ol>
+            <li> Div a </li>
+            <li> Div b </li>
+            <li> Div c </li>
+        </ol>
+    </div>
+
+    <h1>Etiquetas semánticas</h1>
+
+    <!-- Etiquetas semánticas-->
+
+    <p> b:  Formatea el texto en “negrita” </p>
+    <b> Hola mundo </b>
+
+    <p> i: Formatea el texto en “itálica” (cursiva)</p>
+    <i> Hola mundo </i>
+
+    <p> u: Subraya el texto </p>
+    <u> Hola mundo </u>
+
+    <p> strong: Define una palabra o un conjunto de palabras</p>
+    <strong> Hola mundo </strong>
+
+    <p> em: Se utiliza para enfatizar un texto </p>
+    <p> La tarea se entra el día de <em> mañana </em></p>
+
+    <p> mark: Permite destacar texto de una manera muy llamativa</p>
+    <p> La tarea se entra el día de <mark> mañana </mark></p>
+
+    <p> small: Permite minimizar texto</p>
+    <p> La tarea se entra el día de <small> mañana </small></p>
+
+    <p> cite: Permite indicar una cita breve </p>
+    <p><cite> poema escrito </cite> por fernando en el 2020 </p>
+
+    <p> sub y sup: Fabrican respectivamente superíndices y subíndices </p>
+    <p> 1000 <sub> 23 </sub></p>
+    <p> 1000 <sup> 23 </sup></p>
+
+    <p> br: Se utiliza para hacer una ruptura en el flujo del texto </p>
+    <p> Hola mundo <br></p>
+
+    <p> a: Permite construir enlaces. </p>
+    <a href = "https://www.apple.com/mx/"> Ir a Apple </a>
+    <a href = "C:\Users\hecto\OneDrive - UAQ\Documentos\Ingeniería de Software\4° Semestre\Desarrollo de sistemas en Internet (2022-2; G32)\Apuntes\19 de septiembre\Imagenes\Fotos.jpg"> Ir a la imagen</a>
+
+    <h1> Etiquetas para incrustar contenido </h1>
+    <p> img: Inserta una imagen </p>
+    <img src = "Imagenes/Fotos.jpg" width = "400" height = "250">
+
+    <p> iframe: Nos sirve para incrustar un documento HTML dentro del documento HTML principal</p>
+    <iframe width = "300" height="200" src="https://www.openstreetmap.org/export/embed.html?bbox=-0.004017949104309083%2C51.47612752641776%2C0.00030577182769775396%2C51.478569861898606&layer=mapnik"> </iframe>
+
+    <p> video: Permite insertar videos dentro del documento, ofreciendo además un interfaz de control del video con los elementos típicos: reproducción, parada, control de volumen, etc…</p>
+    <video width = "320" height="240" controls>
+    <source src = "Videos/Sicko Mode Inc. (Gorillaz ft. Travis Scott).mp4" type="video/mp4"></video>
+    
+    <p> audio: Permite insertar audios dentro del documento, ofreciendo además un interfaz de control del audio con los elementos típicos: reproducción, parada, control de volumen, etc…</p>
+    <audio controls> <source src = "Audio/Sicko Mode Inc. (Gorillaz ft. Travis Scott).mp3" type="audio/mp3"></audio>
+
+    <!-- Etiquetas para incrustar contenido -->
+
+    <h1> Etiquetas tablas</h1>
+    <!-- Etiquetas tablas -->
+    
+    <p> table: Una tabla muestra un conjunto de elementos relacionados en forma de matriz. Las tablas se construyen de izquierda a derecha (por columnas) y de arriba a abajo (filas). </p>
+    <p> thead: Indica el bloque de filas o la fila con la información de la cabecera</p>
+    <p> tbody: Indica el bloque de filas o la fila con la información del cuerpo</p>
+    <p> tfoot: Indica el bloque de filas o la fila con la infomración de resumen </p>
+    <p> tr: Se utiliza para indicar una fila de celdas en una tabla</p> 
+    <p> td: Se utiliza para indicar una celda</p>
+    <p> th: Se utiliza para definir el encabezado</p>
+    
+
+    <table border = "1">
+
+        <thead>
+            <tr>
+                <th>
+                    Expediente
+                    
+                </th>
+                <th>
+                    Nombre
+                </th>
+                <th>
+                    Edad
+                </th>
+            </tr>
+        </thead>
+
+        <tbody>
+            <tr>
+                <td> 301571 </td>
+                <td> Héctor Merari Sepúlveda Sierra </td>
+                <td> 21 años </td>
+            </tr>
+
+            <tr>
+                <td> 292653 </td>
+                <td> Emmily Reyes Galván</td>
+                <td> 21 años </td>
+            </tr>
+            <tr>
+                <td> 292856 </td>
+                <td> Pulino Sosa Luna </td>
+                <td> 20 años </td>
+            </tr>
+        </tbody>
+
+        <tfoot>
+            <tr>
+                <td> N/D </td>
+                <td> Estudiante</td>
+                <td> N/D </td>
+
+
+            </tr>
+        </tfoot>
+
+    </table>
+
+    <table>
+        <tr>
+            <td> Color </td>
+            <td> Nombre </td>
+        </tr>
+        <tr>
+            <td> Rojo </td>
+            <td> Manzana </td>
+        </tr>
+    </table>
+
+    <h1> Etiquetas de fomrulario</h1>
+    <p> form: Representa una sección de un documento que contiene controles interactivos que permiten a un usuario enviar información a un servidor web </p> 
+    <p> input: Se utiliza para crear controles interactivos para formularios basados en la web con el fin de recibir datos del usuario </p>
+    <p> button: Representa un elemento cliqueable de tipo botón que puede ser utilizado en formularios o en cualquier parte de la página que necesite un botón estándar </p>
+    <p> textarea: Representa un control para la edición mutilínea de texto sin formato</p>
+    <p> select: Representa un control que muestra un menú de opciones</p>
+    <p> option: Las opciones contenidas en el menú </p>
+
+    <form action="">
+        <input placeholder="Nombre" type="text">
+        <input placeholder="Número" type="number">
+        <input placeholder="Teléfono" type="tel">
+        <input placeholder="Email" type="email">
+        <input placeholder="Contraseña" type="password">
+    </form>
+
+    <button> Click para registrar </button>
+
+    
+    <textarea></textarea>
+
+    <select>
+        <option >Femenino</option>
+        <option>Masculino</option>
+        <option>Otro</option>
+    </select>
+</body>
+</html>
